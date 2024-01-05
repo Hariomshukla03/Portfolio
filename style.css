@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background-color: #161513;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+}
+#logo {
+  font-weight: 800;
+  margin-top: 18px;
+  margin-left: 5rem;
+}
+nav ul {
+  font-weight: 800;
+  display: flex;
+  list-style-type: none;
+  gap: 80px;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-right: 1rem;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+#photo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 15rem;
+  
+}
+
+#Abt_photo {
+  text-align: center;
+  padding-top: 35px;
+}
+#Abt_photo h1 {
+  font-weight: 800;
+  width: 42rem;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#Abt_photo h3 {
+  font-size: 15px;
+  padding-top: 2px;
+  width: 42rem;
+  height: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font-weight: 100
+}
+#Abt_photo h1 span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#btn{
+    text-align: center;  
+    margin-top: -18px;   
+}
+#btn1:hover{
+  cursor: pointer;
+}
+#btn2:hover{
+  cursor: pointer;
+}
+#btn1{
+    color: #161513;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 600;
+    width: 9rem;
+    height: 3rem;
+    border: solid 2px black;
+    margin-right:25px ;
+}
+#btn2{
+    color:#fff;
+    background-color: #000;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 600;
+    width: 9rem;
+    height: 3rem;
+    border: solid 2px white;
+}
+#page2{
+  width: 100%;
+  height: 52rem;
+  margin-top: 3.5rem;
+}
+#page2 h1{
+  margin-bottom: 3.5rem;
+  color: #C5C5C5;
+  height: 1.8rem;
+  width: 13rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  gap: 3.5rem;
+  margin-top: 2rem; 
+}
+#Project{
+  text-align: center;
+  margin-top: 3.5rem;
+  
+  
+}
+#Project h1{
+  background: var(--Orange-Gradient, linear-gradient(180deg, #FF8660 0%, #D5491D 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  font-size: 2rem;
+  font-weight: 800;
+  height: 3rem;
+  width: 12rem;
+  
+}
+.Prj{
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  display: inline-block;
+  color: #000;
+  align-content: space-between;
+  margin-left: 20rem;
+  margin-top: 50px;  
+}
+#exp{
+  background: var(--Blue-Gradient, linear-gradient(180deg, #5BADFF 0%, #1373D1 100%));
+ background-clip: text;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ width: 13rem;
+ height: 2.5rem;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
+#exp h1{
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 50px;
+}
+#exp_info{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  height: 28rem; 
+}
+#exp_info h1{
+  margin-top: 25px;margin-bottom: 25px;
+  width: 58rem;
+  margin-left: 0px;
+  align-content: space-around;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+#exp_info span{
+  font-size: small;
+  display: flex;
+  justify-content: end;
+  margin-left: 19.5rem;
+  color: #8491A0;
+  margin-top: auto;
+
+}
+#exp_info h1 i {
+  margin-right: 1.2rem;
+  
+} 
+#exp_info h3{
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #8491A0;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+#page3{
+  width: 50rem;
+  height: 28rem;
+  margin-top: 3.5rem;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pg4{
+  background-color: #191919;
+  width: 90rem;
+  height: 26rem;
+  margin-top: 200px;
+}
+#pg4 h2 {
+  padding:2rem 0 2rem 16rem ;
+  font-weight: 700;
+}
+#pg4 p{
+  padding : 0 0 2rem 16rem;
+  width: 65rem;
+  height: 5rem;
+  color: #C5C5C5;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+#pg4 h6{
+  padding-left: 16rem;
+  padding-top: 3rem;
+  font-size: 15px;  
+  padding-top: 0.2rem;
+}
+#pg4 i{
+  margin-right: 0.5rem;
+ 
+}
+#icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  gap: 3.5rem;
+  margin-top: 5rem;
+}
+#icon:hover{
+  cursor: pointer;
+}
