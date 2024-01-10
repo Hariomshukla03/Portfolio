@@ -65,7 +65,7 @@ nav ul {
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   nav ul {
     display: none;
   }
@@ -76,6 +76,7 @@ nav ul {
   html,
   body {
     overflow-x: hidden;
+    
   }
 }
 
@@ -91,7 +92,7 @@ nav ul {
   width: 20rem;
   height: 15rem;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   #photo img {
     margin-left: 15rem;
   }
@@ -111,7 +112,7 @@ nav ul {
   font-size: 3rem;
   margin-bottom: 40px;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   #Abt_photo h1 {
     margin-right: 20rem;
   }
@@ -127,7 +128,7 @@ nav ul {
   font-weight: 100;
   margin-bottom: 20px;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   #Abt_photo h3 {
     margin-left: 0rem;
   }
@@ -171,7 +172,7 @@ nav ul {
   height: 3rem;
   border: solid 2px white;
 }
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   #btn {
     margin-left: -18rem;
   }
@@ -332,8 +333,16 @@ nav ul {
 #icon:hover {
   cursor: pointer;
 }
-@media only screen and (max-width: 800px) {
+@media(max-width: 800px) {
   #pg4 {
-    margin-left: -15rem;
+    margin-left: -30% ;
+    margin-right: auto;
+    font-size: smaller;
+    align-content: start;
+    width: 180%;
+  }
+  #pg4 p{
+    margin-left: -41px;
+    
   }
 }
