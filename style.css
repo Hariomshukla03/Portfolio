@@ -18,7 +18,7 @@ nav {
   background-color: #222;
   display: flex;
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   justify-content: space-between;
 }
 
@@ -92,11 +92,7 @@ nav ul {
   width: 20rem;
   height: 15rem;
 }
-@media (max-width: 800px) {
-  #photo img {
-    margin-left: 15rem;
-  }
-}
+
 
 #Abt_photo {
   text-align: center;
@@ -104,35 +100,26 @@ nav ul {
 }
 #Abt_photo h1 {
   font-weight: 800;
-  width: 42rem;
+  width: 100%;
   height: 7rem;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 40px;
 }
-@media (max-width: 800px) {
-  #Abt_photo h1 {
-    margin-right: 20rem;
-  }
-}
+
 #Abt_photo h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-top: 2px;
-  width: 42rem;
-  height: 7rem;
+  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
   font-weight: 100;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
-@media (max-width: 800px) {
-  #Abt_photo h3 {
-    margin-left: 0rem;
-  }
-}
+
 #Abt_photo h1 span {
   background: var(
     --Primary-Gradient,
@@ -172,11 +159,7 @@ nav ul {
   height: 3rem;
   border: solid 2px white;
 }
-@media (max-width: 800px) {
-  #btn {
-    margin-left: -18rem;
-  }
-}
+
 #page2 {
   width: 100%;
   height: 52rem;
@@ -187,7 +170,7 @@ nav ul {
   color: #c5c5c5;
   height: 1.8rem;
   width: 22rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-left: auto;
   margin-right: auto;
@@ -214,7 +197,7 @@ nav ul {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   height: 4rem;
   width: 13rem;
@@ -224,11 +207,12 @@ nav ul {
   width: 150px;
   height: 150px;
   background-color: #fff;
-  display: inline-block;
+  display: flex;
   color: #000;
   align-content: space-between;
-  margin-left: 20rem;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #exp { font-size: 1rem;
   background: var(
@@ -245,11 +229,9 @@ nav ul {
   
 }
 #exp h1 {
- 
   font-weight: 800;
   margin-top: 50px;
-  height: 20rem;
-  width: 20rem;
+  font-size: 2rem;
 }
 #exp_info {
   
@@ -265,7 +247,7 @@ nav ul {
   margin-left: 0px;
   align-content: space-around;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 #exp_info span {
@@ -303,7 +285,7 @@ nav ul {
 #pg4 h2 {
   padding: 2rem 0 2rem 16rem;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 #pg4 p {
   padding: 0 0 2rem 16rem;
@@ -316,7 +298,7 @@ nav ul {
 #pg4 h6 {
   padding-left: 16rem;
  margin-top: 2.5rem;
-  font-size: 15px;
+  font-size: 10px;
   padding-top: 0.2rem;
 }
 #pg4 i {
@@ -334,15 +316,56 @@ nav ul {
   cursor: pointer;
 }
 @media(max-width: 800px) {
+  html body{
+    overflow-x: hidden;
+    font-size: 1.5rem;
+  }
+  #photo img {
+    margin-left: 3rem;
+  }
+  #Abt_photo h1 {
+    font-size: 1.5rem;
+  }
   #pg4 {
-    margin-left: -30% ;
+    margin-left: -40% ;
     margin-right: auto;
-    font-size: smaller;
+    
     align-content: start;
     width: 180%;
   }
   #pg4 p{
-    margin-left: -41px;
+    width: 80%;
+    margin-left: -3pc;
+    font-size: 0.5rem;  
+  }
+  #logo{
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  #btn{
+    margin-left: auto;
+  }
+  #Abt_photo h3{
+    margin-left:auto;
+    margin-right: 40px;
+    margin-top: -50px;
+    width: 90%;
+    font-size: 0.65rem;
+  }
+  #exp{
+    margin-left: 100px;
+   
+  }
+  #exp_info h1 {
+    font-size: 0.75rem;
+  }
+  #exp_info h3 {
+    font-size: 0.5rem;
+    width: 50%;
     
+  }
+  .container{
+    width: 450px;
+    height: 600px;
   }
 }
