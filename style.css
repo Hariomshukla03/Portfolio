@@ -203,6 +203,23 @@ nav ul {
   width: 13rem;
   margin-top: 4rem;
 }
+#prj1{
+  width: 19.2pc;
+  height: 14pc;
+  border: 3px solid #fff;
+}
+#livebtn button{
+  margin-top: 240px;
+  margin-left: -200px;
+  margin-bottom: -20px;
+  height: 30px;
+  width: 120px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 2px solid #fff;
+}
 .Prj {
   width: 150px;
   height: 150px;
@@ -210,7 +227,7 @@ nav ul {
   display: flex;
   color: #000;
   align-content: space-between;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
